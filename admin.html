@@ -1,0 +1,46 @@
+﻿<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin | Tibs Initiatives</title><link rel="stylesheet" href="assets/css/style.css"></head><body>
+<header class="header">
+  <div class="brand">
+    <img src="assets/img/logo.png" alt="Tibs Logo">
+    <div>
+      <div style="font-weight:800">Tibs Initiatives</div>
+      <div style="font-size:12px;margin-top:2px">Banking & Financial Services</div>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div style="display:flex;gap:8px;align-items:center">
+    <button class="darkmode-toggle" onclick="document.body.classList.toggle('dark')">Toggle</button>
+    <div class="hamburger" aria-label="menu" role="button">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<section class="container">
+  <h2 class="center">Admin Upload Panel (Demo)</h2>
+  <div class="admin-panel">
+    <p>This is a front-end demo admin panel. It does not store files because there's no backend here. To make uploads work you'll need a server-side endpoint (I can help set that up).</p>
+    <label>Upload images/videos/PDFs<input type="file" multiple></label>
+    <p class="small">After uploading files to your server, add their paths to the pages or use a CMS.</p>
+    <h4 style="margin-top:18px">Quick instructions</h4>
+    <ol>
+      <li>Replace <code>assets/img/logo.png</code> with your real logo file.</li>
+      <li>Replace other placeholder images and media in <code>assets/img</code> and <code>assets/media</code>.</li>
+      <li>Host the site on any static host (Netlify, GitHub Pages, Vercel) or a shared host.</li>
+    </ol>
+  </div>
+</section>
+
+<footer class="footer">
+  <div>© 2025 Tibs Initiatives — All services via WhatsApp: +256 772 373473</div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body></html>
